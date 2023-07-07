@@ -1,11 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    Test
-</body>
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta name="description" content="Perjalanab Berliburan ke Tajmahal">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Tugas 3</title>
+    <link rel="stylesheet" href="./image/css/style.css" />
+     <link rel="stylesheet" href="./image/css/corousel.css" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="navbar-container container">
+        <input type="checkbox" name="" id="" />
+        
+        <div class="hamburger-lines">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>
+
+        
+        
+        <ul class="menu-items">
+          <li><a href="#tajmahal-photos">Tajmahal Poto</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#showcase">Showcase</a></li>
+          <li><a href="#form-section">Form</a></li>
+          <li><a href="#grid">Grid</a></li>
+          <li><label class="switch">
+            <input id="checkbox-dark-mode" onchange="toggleDarkMode()" type="checkbox">
+            <span class="slider round"></span>
+          </label></li>
+         
+        </ul>
+        
+      </div>
+    </nav>
+
+    <header>
+      <section class="showcase-area" id="showcase">
+        <div class="showcase-container">
+          <h1 class="main-title" id="home">Liburan Ke Tajmahal</h1>
+        </div>
+      </section>
+    </header>
+
+    <main>
+
+      <section class="carousel" aria-label="Gallery">
+        <ol class="carousel__viewport">
+          <li id="carousel__slide1"
+              tabindex="0"
+              class="carousel__slide">
+            <div class="carousel__snapper">
+              <a href="#carousel__slide2"
+                 class="carousel__prev">Go to last slide</a>
+              <a href="#carousel__slide2"
+                 class="carousel__next">Go to next slide</a>
+            </div>
+          </li>
+          <li id="carousel__slide2"
+              tabindex="0"
+              class="carousel__slide">
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide1"
+               class="carousel__prev">Go to previous slide</a>
+            <a href="#carousel__slide1"
+               class="carousel__next">Go to next slide</a>
+          </li>
+        </ol>
+       
+      </section>
+
+      
+      <section id="tajmahal-photos">
+        <h1>Tajmahal India Photos</h1>
+        <div class="grid-container">
+          <div id="item4">
+            <img
+              src="./image/img/ngelamun_tajmahal.jpg"
+              alt="gambar joget sibaju merah dan"
+            />
+          </div>
+          <div id="item4">
+            <img
+              src="./image/img/joget_tajmahal.jpg"
+              alt="gambar joget sibaju merah dan"
+            />
+          </div>
+          <div id="item4">
+            <img
+              src="./image/img/potobarengteman.jpg"
+              alt="gambar bareng temen di kursi tajmahal"
+            />
+          </div>
+        </div>
+      </section>
+
+      
+
+      <section id="about">
+        <div class="about-wrapper container">
+          <div class="about-text">
+            <p class="small">Pengalaman Ke Tajmahal</p>
+            <h2>Pengalaman Berlibur Ke Tajmahal India</h2>
+            <p>
+              Taj Mahal adalah sebuah mausoleum (bangunan makam yang luas dan
+              megah) tepi sungai abad ke-17 di Kota Agra yang dibangun Sultan
+              Mughal, Shah Jahan, untuk mengenang ratunya, Mumtaz, yang mangkat
+              ketika melahirkan anak mereka yang ke-14. Monumen indah yang
+              dibangun menggunakan batu bata, batu pasir merah, dan marmer putih
+              yang terkenal dengan polanya yang rumit itu merupakan salah satu
+              objek wisata terbesar di India. .
+            </p>
+          </div>
+          <div class="about-img">
+            <img src="image/img/about.jpg" alt="halaman about dari tajmahal" />
+          </div>
+        </div>
+      </section>
+
+      <section id="form-section">
+        <h2>Perkenalan Form</h2>
+        <form action="#">
+          <fieldset>
+            <legend>Personal Data:</legend>
+
+            <div>
+              <label for="date">Date:</label>
+            </br>
+              <input id="date" type="date" required />
+            </div>
+
+            <div>
+              <label for="fullName">Nama Lengkap:</label>
+              <input id="fullName" type="text" required />
+            </div>
+
+            <div>
+              <label for="email">Email:</label>
+              <input id="email" type="email" required />
+            </div>
+
+            <div>
+              <p>Apakah Kamu Tinggal Di Indonesia?</p>
+              <input type="radio" id="yes" name="isIndonesia" value="Male" />
+              <label for="yes">Yes</label>
+              <input type="radio" id="no" name="isIndonesia" value="Female" />
+              <label for="no">No</label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Informasi Tambahan:</legend>
+            <div>
+              <p>Apa Yang Kamu Ketahui Tentang Tajmahal</p>
+              <input
+                id="monumen"
+                type="checkbox"
+                name="personality"
+                value="monumen"
+              />
+              <label for="monumen">Monumen</label>
+              
+              <input
+                id="masjid"
+                type="checkbox"
+                name="personality"
+                value="masjid"
+              />
+              <label for="masjid">Masjid</label>
+
+            </div>
+            <div>
+              <p>Menurut Anda Apakah yang anda ketahui mengenai tajmahal</p>
+              <textarea rows="3"></textarea>
+            </div>
+          </fieldset>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+
+      <section id="grid">
+        <div class="item1">
+          <picture>
+            <source srcset="./image/img/ngelamun_tajmahal.jpg"
+                    media="(orientation: portrait)" height="100px">
+            <img src="https://img2.pngdownload.id/20180205/uuw/kisspng-india-gate-purana-qila-india-tour-tourist-attracti-india-travel-india-gate-5a78ba2b9b9d65.1527814815178614196374.jpg" height="100px"  alt="img ">
+        </picture>
+          <!-- https://img2.pngdownload.id/20180205/uuw/kisspng-india-gate-purana-qila-india-tour-tourist-attracti-india-travel-india-gate-5a78ba2b9b9d65.1527814815178614196374.jpg -->
+        </div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        
+      </section>
+    </main>
+
+    <footer></footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./image/js/style.js"></script>
+    <script>
+      $(document).ready(function () {
+        // Add smooth scrolling to all links
+        $("a").on("click", function (event) {
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $("html, body").animate(
+              {
+                scrollTop: $(hash).offset().top,
+              },
+              800,
+              function () {
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              }
+            );
+          } // End if
+        });
+      });
+    </script>
+  </body>
 </html>
