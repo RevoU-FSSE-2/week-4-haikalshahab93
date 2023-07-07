@@ -1,6 +1,3 @@
-<img src="image/img/web.png" width="100%" height="250">
-
-
 # Muhammad-Haikal-Shahab_Weekly_W4
 
 # Netlify
@@ -77,29 +74,18 @@
   * klik domainn management ,  
   * klik add domain alias. 
   * masukan domain yg anda buat di niagahoster seperti berikut ini
-  <img src="image/img/readme/add_domain.PNG.PNG" width="100%" height="25
+  <img src="image/img/readme/add_domain.PNG" width="100%" height="25>
   * simpan.
  
  8. Berhasil dan tampilan website dengan domain yang dibuat niagahoster sukses
- 
+  <img src="image/img/readme/prosesaktif2.PNG" width="100%" height>
 
 
+<br>
 
+<hr>
 
-
-
-
-<a href="https://www.instagram.com/haikal02502/">
-  <img align="left" alt="Abhishek's Instagram" width="22px" src="https://raw.githubusercontent.com/hussainweb/hussainweb/main/icons/instagram.png"  />
-</a>
-
-<a href="https://www.linkedin.com/in/mhaikalshahab/">
-  <img align="left" alt="Abhishek's LinkedIN" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/linkedin.svg" />
-</a>
-
-<br />
-
-hi, i'm [Muhammad Haikal Shahab](https://haikalshahab2.netlify.app), a passionate self-taught full stack web developer and a freelance software engineer from indonesia. my passion for software lies with dreaming up ideas and making them come true with elegant interfaces. i take great care in the experience, architecture, and code quality of the things I build.
+hi, i'm [Muhammad Haikal Shahab](www.linkedin.com/in/mhaikalshahab), a passionate self-taught full stack web developer and a freelance software engineer from indonesia. my passion for software lies with dreaming up ideas and making them come true with elegant interfaces. i take great care in the experience, architecture, and code quality of the things I build.
 
 
   <img align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="500" height="320" />
