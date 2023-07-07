@@ -20,6 +20,75 @@
 4. Tahap Ke empat ganti nama domain sesuai yang anda inginkan dengan cara memilih site configuration dari site yang kita buat , kemudian pilih site details ubah klik change site name dan ganti nama sesuai yang anda inginkan.
 <img src="image/img/readme/ganti%20nama_netlify.PNG" width="100%" height="250">
 
+# Niagahoster
+
+1. Tahap Pertama Login Niagahoster dengan menyambungan ke email
+<img src="image/img/readme/login_lewatgmail.PNG" width="100%" height="250">
+
+
+2. Tahap Kedua Beli Domain Sesuai Keinginan, selanjutnya setelah itu lakukan pembayaran sesuai dengan metode pembayaran yang di di inginkan.
+<img src="image/img/readme/beli%20dan%20bayar_niagahoster.PNG" width="100%" height="250">
+
+<img src="image/img/readme/bayar_19%20ribu.PNG" width="100%" height="250">
+
+3. Tahap Ketiga Setelah Domain dibuat maka akan bisa dilakukan pengelolaan layanan dari domain tersebut.
+
+<img src="image/img/readme/kelolalayanan.PNG" width="100%" height="250">
+
+
+# CloudFlare
+
+1. Tahap Pertama Registrasi dengan memasukan Email dan Password, dan setelah itu akan langsung masuk ke halaman Cloudflare Dashboard
+
+<img src="image/img/readme/signout_cloudflare.PNG" width="100%" height="250">
+
+2. Tahap Kedua Setelah Kemenu Dashboard, Pilih Website dan Add Site berdasarkan domain Niagahoster yang sebelumnya kita buat seperti dibawah ini dan klik add site.
+
+<img src="image/img/readme/signout_cloudflare.PNG" width="100%" height="250">
+<img src="image/img/readme/simpanlink%20kita.PNG" width="100%" height="250">
+
+3.Tahap Ketiga .
+ * pilih Free ( untuk plan for website kita ) dan klik continue
+ * selanjutnya untuk review dns di lewatkan terlebih dahulu dan klik continue dan konfirmasi
+ * selanjutnya pada menu change your name server, akan muncul 2 nama server cloudflare seperti dibawah ini. 
+ <img src="image/img/readme/pindahkan%20dns%20cloudflare%20ke%20niagahoster.PNG" width="100%" height="250">
+ 
+ * selanjutnya masukan ke niagahoster domain kita dan ganti nama server dengan klik ubah nama server dan masukan nama server yang kita dapatkan dari cloudflare dan simpan seperti gambar di bawah ini
+ <img src="image/img/readme/ubahnamadns%20di%20nniagahoster.PNG" width="100%" height="250">
+ <img src="image/img/readme/ubahnamadns%20di%20nniagahoster.PNG" width="100%" height="250">
+
+ 4. Tahap Ke Empat Setting Quick Start Guide Pada  Improve Security,Automatic HTTPS Rewrites,Optimize performance,Summary dengan langsung klik save saja dan klik Finish
+
+  <img src="image/img/readme/setelah%20dns%20next2.PNG" width="100%" height="250">
+
+  5. Tahap Kelima  Klik Check Nameserver dan akan menunggu sampai server kita aktif paling lambat 1x24 jam 
+  <img src="image/img/readme/menungguaktif%20dna%20verifikasi%20emai.PNG" width="100%" height="250">
+
+  6. Tahap  Ke Enam, setelah site kita yang di cloudflare aktif dan tersambung ke niagahoster. 
+  * klik sitenya 
+  * setelah pilih DNS -> Record
+  * Klik  Add record
+    * Cname @ haikalshahab4.netlify.app -> untuk menyambungkan netlify dan cloudflare
+    * Cname www shahabweb.site -> untuk menyambungkan niagahoster  dan cloudflare
+      <img src="image/img/readme/akhir.PNG" width="100%" height="250">
+
+  7. Tahap Ketujuh ,  pada halaman netlify aksesnya , 
+  * pilih site configuration, 
+  * klik domainn management ,  
+  * klik add domain alias. 
+  * masukan domain yg anda buat di niagahoster seperti berikut ini
+  <img src="image/img/readme/add_domain.PNG.PNG" width="100%" height="25
+  * simpan.
+ 
+ 8. Berhasil dan tampilan website dengan domain yang dibuat niagahoster sukses
+ 
+
+
+
+
+
+
+
 <a href="https://www.instagram.com/haikal02502/">
   <img align="left" alt="Abhishek's Instagram" width="22px" src="https://raw.githubusercontent.com/hussainweb/hussainweb/main/icons/instagram.png"  />
 </a>
